@@ -1,3 +1,6 @@
+
+function getUser(id){
+
 const users = [
     {
         id: 1,
@@ -25,4 +28,8 @@ const users = [
     }
 ]
 
+return users[id-1];
+}
+
 module.exports = users;
+

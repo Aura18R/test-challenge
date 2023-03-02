@@ -7,3 +7,8 @@ const {getUser, getUsers} = require('../users');
 // Verify any data of the resulting object you want
 
 // READ documentation
+
+
+test('Los datos del usuario son: ', () => {
+   
+})

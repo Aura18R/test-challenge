@@ -1,6 +1,4 @@
 
-function getUser(id){
-
 const users = [
     {
         id: 1,
@@ -28,8 +26,16 @@ const users = [
     }
 ]
 
-return users[id-1];
+
+function getUsers() {
+    return users;
 }
+
+
+function getUser(id) {
+    return users.find(user => user.id === id)
+}
+
 
 module.exports = users;
 

@@ -1,4 +1,4 @@
-/* function stringDNA(dna) {
+ function stringDNA(dna) {
   let nonCanonicalDNA = [];
 
   for (let i = 0; i < dna.length; i++) {
@@ -12,4 +12,6 @@
 
   return nonCanonicalDNA.join('');
 }
- */
+ 
+
+module.export = stringDNA;
